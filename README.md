@@ -1,2 +1,4 @@
 # Praticando-06
- Landing page
+ Utilizando algumas tecnicas novas de dinâmicas do Front.
+
+ Confira em https://luuizalberto.github.io/Praticando-06/
