@@ -114,12 +114,19 @@ nav.mobile ul{
     width: 100%;
     list-style-type: none;
     background-color: white;
+    box-shadow: 5px 5px 15px 5px #525252;
+    border-radius: 5px;
 }
 
 nav.mobile li{
     text-align: center;
     border-bottom: 1px solid #444;
     padding: 8px 0;
+    transition: 0.2s;
+}
+
+nav.mobile li:hover{
+    box-shadow: inset 0px 0px 15px -9px #000000;
 }
 
 nav.mobile a{
