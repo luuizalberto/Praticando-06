@@ -472,11 +472,12 @@ section.sessao-final{
 
 footer{
     width: 100%;
-    padding: 12px 2%;
+    padding: 18px 2%;
     background-color: rgb(43, 43, 43);
     color: white;
     text-align: center;
-    font-weight: lighter;
+    font-weight: 300;
+    font-size: 13px;
 }
 
 
