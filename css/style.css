@@ -156,6 +156,10 @@ nav.desktop ul li a{
     text-decoration: none;
 }
 
+nav.desktop ul li a:hover{
+    font-weight: 300;
+}
+
 .conteudo-header{
     position: relative;
     z-index: 1;
