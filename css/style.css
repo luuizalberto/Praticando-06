@@ -134,6 +134,7 @@ nav.mobile a{
     text-decoration: none;
     color: black;
     font-size: 22px;
+    user-select: none;
 }
 
 nav.desktop{
