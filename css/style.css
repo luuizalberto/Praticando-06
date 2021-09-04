@@ -106,7 +106,7 @@ nav.mobile i{
 }
 
 nav.mobile ul{
-    display:none;
+    display:block;
     z-index: 2;
     position: absolute;
     left: 0;
@@ -121,7 +121,7 @@ nav.mobile ul{
 nav.mobile li{
     text-align: center;
     border-bottom: 1px solid #444;
-    padding: 8px 0;
+    padding: 20px 0;
     transition: 0.2s;
 }
 
@@ -133,6 +133,7 @@ nav.mobile a{
     display: block;
     text-decoration: none;
     color: black;
+    font-size: 22px;
 }
 
 nav.desktop{
