@@ -34,6 +34,7 @@
                 </nav><!--desktop-->
                 <nav class="mobile">
                     <i class="fa fa-bars"></i>
+                    <i style="display: none;" class="fa fa-times"></i>
                     <ul>
                         <li><a href="">Home</a></li>
                         <li><a href="">Sobre</a></li>
@@ -176,15 +177,22 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $(function(){
+
             $('nav.mobile i').click(function(){
-                var elemento = $(this).parent().find('ul');
-                if(elemento.is(':visible') == false){
-                    elemento.fadeIn();
-                }else{
-                    elemento.fadeOut();
-                }
+                $('nav.mobile ul').slideToggle()
+            })
+
+            $('nav.mobile i.fa-bars').click(function(){
+                $(this).css("display","none")
+                $('nav.mobile i.fa-times').fadeIn()
+                    $('nav.mobile i.fa-times').click(function(){
+                        $(this).css("display","none")
+                        $('nav.mobile i.fa-bars').fadeIn()
+                    })
             })
         })
+
+
     </script>
     <script>
         let i = 0;
