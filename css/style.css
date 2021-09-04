@@ -106,7 +106,7 @@ nav.mobile i{
 }
 
 nav.mobile ul{
-    display:block;
+    display:none;
     z-index: 2;
     position: absolute;
     left: 0;
