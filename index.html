@@ -29,7 +29,7 @@
                         <li><a href="">Home</a></li>
                         <li><a href="">Sobre</a></li>
                         <li><a href="">Planos</a></li>
-                        <li><a href="">Contato</a></li>
+                        <li><a href="#contato">Contato</a></li>
                     </ul>
                 </nav><!--desktop-->
                 <nav class="mobile">
@@ -123,7 +123,7 @@
     </section>
 
 
-    <section class="sessao-final">
+    <section id="Contato" class="sessao-final">
         <div class="center">
 
             <div class="w50 contato">
@@ -175,41 +175,8 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        $(function(){
-
-            $('nav.mobile i').click(function(){
-                $('nav.mobile ul').slideToggle()
-            })
-
-            $('nav.mobile i.fa-bars').click(function(){
-                $(this).css("display","none")
-                $('nav.mobile i.fa-times').fadeIn()
-                    $('nav.mobile i.fa-times').click(function(){
-                        $(this).css("display","none")
-                        $('nav.mobile i.fa-bars').fadeIn()
-                    })
-            })
-        })
-
-
-    </script>
-    <script>
-        let i = 0;
-        let mensagem = 'Bem-vindo(a) ao nosso Website';
-
-        typing();
-
-        function typing(){
-            if(i < mensagem.length){
-                document.getElementById('text').innerHTML += mensagem.charAt(i);
-                i++;
-                setTimeout(typing, 100);
-            }
-        }
-
-
-    </script>
+    <script src="js/menu-mobile.js"></script>
+    <script src="js/efeito-escrevendo.js"></script>
     
 </body>
 </html>
