@@ -1,4 +1,10 @@
 # luiz-single-page
- Utilizando algumas tecnicas novas de dinâmicas do Front.
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/luuizalberto/luiz-single-page/blob/main/LICENSE)
 
- Confira em https://luuizalberto.github.io/luiz-single-page/
+# Sobre o Projeto
+ Utilizando algumas tecnicas novas de dinâmicas do Front.
+ 
+# Layout Web
+![image](https://github.com/luuizalberto/assets/blob/main/images/pageLuiz.png)
+
+ Confira por completo: https://luuizalberto.github.io/luiz-single-page/
